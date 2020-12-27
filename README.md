@@ -1,5 +1,21 @@
 # Stick Path
 
+## Objective
+
+Parse and compute the path(s) from top to bottom based on this kind of diagram:
+
+```
+A  B  C
+|  |  |
+|--|  |
+|  |--|
+|  |--|
+|  |  |
+1  2  3
+```
+
+The input has to be fill by the user via stdin. 
+
 ## Notes
 
 I let the responsability to the developer to parametrize the input / output type of the StickPathSolver structure.  
