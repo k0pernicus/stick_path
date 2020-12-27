@@ -2,7 +2,9 @@
 
 ## Objective
 
-Parse and compute the path(s) from top to bottom based on this kind of diagram:
+
+"Stick Path" begins with a number of vertical lines.  
+Between the lines are random horizontal connectors that connect all the lines in a connected diagram, like the one below.
 
 ```
 A  B  C
@@ -14,7 +16,11 @@ A  B  C
 1  2  3
 ```
 
-The input has to be fill by the user via stdin. 
+To play the game, the player selects a line at the top and follows it down.  
+When he meets a horizontal connector, he must follow it to move to another vertical line and continue down.  
+Repeat this process until you reach the bottom of the diagram.
+
+At the end, list all connected pairs.
 
 ## Notes
 
